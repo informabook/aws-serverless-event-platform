@@ -59,7 +59,7 @@ Le projet suit un flux rigoureux :
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [https://github.com/TON_USER/aws-serverless-event-platform.git](https://github.com/TON_USER/aws-serverless-event-platform.git)
+    git clone [https://github.com/informabook/aws-serverless-event-platform.git](https://github.com/informabook/aws-serverless-event-platform.git)
     cd aws-serverless-event-platform
     ```
 
