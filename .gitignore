@@ -1,0 +1,30 @@
+# --- PYTHON (Inutile de partager ça) ---
+# Fichiers compilés automatiquement par Python
+__pycache__/
+*.pyc
+
+# --- ENVIRONNEMENT VIRTUEL (TRES IMPORTANT) ---
+# C'est le dossier lourd avec toutes tes librairies installées.
+# Chacun doit créer le sien, on ne le partage jamais.
+.venv/
+venv/
+env/
+
+# --- AWS CDK (Généré automatiquement) ---
+# Ce sont les fichiers CloudFormation générés lors du "cdk synth".
+# C'est gros et ça se recrée tout seul.
+cdk.out/
+.cdk.staging/
+
+# --- SYSTÈME D'EXPLOITATION (Poubelle) ---
+# Fichiers créés par Mac et Windows
+.DS_Store
+Thumbs.db
+
+# --- IDE (Tes réglages persos VS Code) ---
+.vscode/
+.idea/
+
+# --- SÉCURITÉ ---
+# Si jamais tu as créé un fichier .env avec des clés, on le bloque par sécurité
+.env
